@@ -124,14 +124,6 @@
     };
 
     # Copilot
-    plugins-copilot = {
-      url = "github:zbirenbaum/copilot.lua";
-      flake = false;
-    };
-    plugins-copilot-chat = {
-      url = "github:CopilotC-Nvim/CopilotChat.nvim";
-      flake = false;
-    };
 
     # Markdown
     plugins-glow-nvim = {
@@ -142,6 +134,11 @@
     # Themes
     plugins-rose-pine = {
       url = "github:rose-pine/neovim";
+      flake = false;
+    };
+
+    plugins-catppucin = {
+      url = "github:catppuccin/nvim";
       flake = false;
     };
 

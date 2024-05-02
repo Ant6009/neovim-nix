@@ -58,6 +58,22 @@
         "type": "github"
       }
     },
+    "plugins-catppucin": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713105352,
+        "narHash": "sha256-yTVou/WArEWygBBs2NFPI9Dm9iSGfwVftKFbOAGl8tk=",
+        "owner": "catppuccin",
+        "repo": "nvim",
+        "rev": "a1439ad7c584efb3d0ce14ccb835967f030450fe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "catppuccin",
+        "repo": "nvim",
+        "type": "github"
+      }
+    },
     "plugins-cmp-buffer": {
       "flake": false,
       "locked": {
@@ -151,38 +167,6 @@
       "original": {
         "owner": "hrsh7th",
         "repo": "cmp-vsnip",
-        "type": "github"
-      }
-    },
-    "plugins-copilot": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1709095198,
-        "narHash": "sha256-JX3sdsnOnjkY7r9fCtC2oauo0PXF3SQ+SHUo8ifBvAc=",
-        "owner": "zbirenbaum",
-        "repo": "copilot.lua",
-        "rev": "f7612f5af4a7d7615babf43ab1e67a2d790c13a6",
-        "type": "github"
-      },
-      "original": {
-        "owner": "zbirenbaum",
-        "repo": "copilot.lua",
-        "type": "github"
-      }
-    },
-    "plugins-copilot-chat": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1712795610,
-        "narHash": "sha256-6Kup+c/i7JxYrbu843uE5eNCeZ1f1w++/uDht2pYES4=",
-        "owner": "CopilotC-Nvim",
-        "repo": "CopilotChat.nvim",
-        "rev": "261bb6268761cedf70342e4a869d6b437e0ccc6c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "CopilotC-Nvim",
-        "repo": "CopilotChat.nvim",
         "type": "github"
       }
     },
@@ -751,14 +735,13 @@
         "flake-utils": "flake-utils",
         "nil": "nil",
         "nixpkgs": "nixpkgs",
+        "plugins-catppucin": "plugins-catppucin",
         "plugins-cmp-buffer": "plugins-cmp-buffer",
         "plugins-cmp-dap": "plugins-cmp-dap",
         "plugins-cmp-nvim-lsp": "plugins-cmp-nvim-lsp",
         "plugins-cmp-path": "plugins-cmp-path",
         "plugins-cmp-treesitter": "plugins-cmp-treesitter",
         "plugins-cmp-vsnip": "plugins-cmp-vsnip",
-        "plugins-copilot": "plugins-copilot",
-        "plugins-copilot-chat": "plugins-copilot-chat",
         "plugins-crates-nvim": "plugins-crates-nvim",
         "plugins-fidget": "plugins-fidget",
         "plugins-gitsigns-nvim": "plugins-gitsigns-nvim",
