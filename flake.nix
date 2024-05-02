@@ -235,9 +235,6 @@
           enable = true;
           type = "nvim-cmp";
         };
-        vim.copilot.chat = {
-          enable = true;
-        };
         vim.git = {
           enable = true;
           gitsigns.enable = true;
