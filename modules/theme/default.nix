@@ -19,7 +19,7 @@ in {
   };
 
   config = mkIf cfg.enable {
-    vim.startPlugins = ["catpuccin"];
+    vim.startPlugins = ["catppuccin"];
     vim.luaConfigRC.themeSetup = nvim.dag.entryBefore ["theme"] cfg.extraConfig;
     vim.luaConfigRC.theme =
       /*

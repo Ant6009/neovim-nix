@@ -58,7 +58,7 @@
         "type": "github"
       }
     },
-    "plugins-catppucin": {
+    "plugins-catppuccin": {
       "flake": false,
       "locked": {
         "lastModified": 1713105352,
@@ -735,7 +735,7 @@
         "flake-utils": "flake-utils",
         "nil": "nil",
         "nixpkgs": "nixpkgs",
-        "plugins-catppucin": "plugins-catppucin",
+        "plugins-catppuccin": "plugins-catppuccin",
         "plugins-cmp-buffer": "plugins-cmp-buffer",
         "plugins-cmp-dap": "plugins-cmp-dap",
         "plugins-cmp-nvim-lsp": "plugins-cmp-nvim-lsp",

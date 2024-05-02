@@ -137,7 +137,7 @@
       flake = false;
     };
 
-    plugins-catppucin = {
+    plugins-catppuccin = {
       url = "github:catppuccin/nvim";
       flake = false;
     };
