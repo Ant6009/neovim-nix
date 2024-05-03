@@ -274,7 +274,9 @@ in {
         lua
         */
         ''
-          require("lualine").setup {}
+          require("lualine").setup ({
+            options = {theme = "catppuccin"}
+          })
         '';
     })
   ]);
