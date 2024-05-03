@@ -266,5 +266,16 @@ in {
           require("todo-comments").setup {}
         '';
     })
+    (mkIf cfg.lualine.enable {
+      vim.startPlugins = ["lualine"];
+      vim.luaConfigRC.todo-comments =
+        nvim.dag.entryAnywhere
+        /*
+        lua
+        */
+        ''
+          require("lualine").setup {}
+        '';
+    })
   ]);
 }
