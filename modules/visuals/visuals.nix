@@ -68,6 +68,32 @@ in {
 
     kommentary.enable = mkEnableOption "commenting plugin [kommentary].";
 
+    lualine = {
+      enable = mkEnableOption "Lualine configuration.";
+      presets = {
+        icons_enabled = mkOption {
+          default = true;
+          description = "Enables Icons.";
+          type = types.bool;
+        };
+        theme = mkOption {
+          description = "Selected theme.";
+          type = types.str;
+          default = "catppuccin";
+        };
+        separator = mkOption {
+          description = "Component separator.";
+          default = "│";
+          type = types.str;
+        };
+        section_sparator = mkOption {
+          description = "Section separator";
+          default = "";
+          type = types.str;
+        };
+      };
+    };
+
     noice = {
       enable = mkEnableOption "Noice configuration.";
 

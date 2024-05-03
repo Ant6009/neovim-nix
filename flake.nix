@@ -193,6 +193,10 @@
       url = "github:folke/todo-comments.nvim";
       flake = false;
     };
+    plugins-lualine = {
+      url = "github:nvim-lualine/lualine.nvim";
+      flake = false;
+    };
 
     # Key binding help
     plugins-which-key = {
@@ -291,6 +295,9 @@
           };
           nvimtree.enable = true;
           todoComments.enable = true;
+          lualine = {
+            enable = true;
+          };
         };
         vim.theme.enable = true;
         vim.telescope.enable = true;
